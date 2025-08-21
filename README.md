@@ -34,6 +34,17 @@ make
 make run
 ```
 
+### 故障排除
+
+如果遇到 `CMAKE_CXX_COMPILER not set` 错误：
+
+```bash
+# 手动指定编译器
+cmake -DCMAKE_CXX_COMPILER=g++ ..
+# 或者
+cmake -DCMAKE_CXX_COMPILER=clang++ ..
+```
+
 ### CMake构建选项
 
 ```bash

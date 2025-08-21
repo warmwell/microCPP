@@ -2,6 +2,14 @@
 
 cmake_minimum_required(VERSION 3.10)
 
+# 设置编译器（在project之前）
+if(NOT CMAKE_CXX_COMPILER)
+    find_program(CMAKE_CXX_COMPILER NAMES g++ clang++ c++)
+    if(NOT CMAKE_CXX_COMPILER)
+        message(FATAL_ERROR "No C++ compiler found!")
+    endif()
+endif()
+
 # 项目名称和版本
 project(MergeSortedArrays VERSION 1.0.0 LANGUAGES CXX)
 

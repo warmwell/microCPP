@@ -76,15 +76,15 @@ CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o: CMakeFiles/merge_s
 CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o: /workspace/merge_sorted_arrays.cpp
 CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o: CMakeFiles/merge_sorted_arrays.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o -MF CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o.d -o CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o -c /workspace/merge_sorted_arrays.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o -MF CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o.d -o CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o -c /workspace/merge_sorted_arrays.cpp
 
 CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/merge_sorted_arrays.cpp > CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/merge_sorted_arrays.cpp > CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.i
 
 CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/merge_sorted_arrays.cpp -o CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/merge_sorted_arrays.cpp -o CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.s
 
 # Object files for target merge_sorted_arrays
 merge_sorted_arrays_OBJECTS = \
