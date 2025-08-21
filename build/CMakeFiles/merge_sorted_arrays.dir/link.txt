@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O2 -DNDEBUG -Xlinker --dependency-file=CMakeFiles/merge_sorted_arrays.dir/link.d CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o -o merge_sorted_arrays
