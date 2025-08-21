@@ -151,6 +151,7 @@ int main() {
     
     std::cout << "\n=== 自定义测试 ===" << std::endl;
     std::cout << "你可以修改main函数中的数组来测试其他情况" << std::endl;
+    std::cout << "本项目已提交到GitHub: https://github.com/warmwell/microCPP" << std::endl;
     
     // 用户可以在这里添加自己的测试
     std::vector<int> myArr1 = {1, 4, 7};
