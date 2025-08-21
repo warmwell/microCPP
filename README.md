@@ -36,13 +36,32 @@ make run
 
 ### 故障排除
 
-如果遇到 `CMAKE_CXX_COMPILER not set` 错误：
+**如果遇到 `CMAKE_CXX_COMPILER not set` 错误：**
 
 ```bash
 # 手动指定编译器
 cmake -DCMAKE_CXX_COMPILER=g++ ..
 # 或者
 cmake -DCMAKE_CXX_COMPILER=clang++ ..
+```
+
+**如果遇到 `Building for: NMake Makefiles` 或 `nmake not found` 错误：**
+
+```bash
+# 明确指定Unix Makefiles生成器
+cmake -G "Unix Makefiles" -DCMAKE_CXX_COMPILER=g++ ..
+
+# 或者使用Ninja生成器（如果已安装）
+cmake -G "Ninja" -DCMAKE_CXX_COMPILER=g++ ..
+```
+
+**推荐的完整命令：**
+
+```bash
+mkdir build && cd build
+cmake -G "Unix Makefiles" -DCMAKE_CXX_COMPILER=g++ ..
+make
+./merge_sorted_arrays
 ```
 
 ### CMake构建选项

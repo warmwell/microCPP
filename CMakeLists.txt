@@ -2,6 +2,11 @@
 
 cmake_minimum_required(VERSION 3.10)
 
+# 强制使用Unix Makefiles生成器（适用于Linux/Unix系统）
+if(UNIX AND NOT CMAKE_GENERATOR)
+    set(CMAKE_GENERATOR "Unix Makefiles" CACHE STRING "CMake generator" FORCE)
+endif()
+
 # 设置编译器（在project之前）
 if(NOT CMAKE_CXX_COMPILER)
     find_program(CMAKE_CXX_COMPILER NAMES g++ clang++ c++)
